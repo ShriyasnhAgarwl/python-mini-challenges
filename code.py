@@ -1,5 +1,5 @@
 # --------------
-#Code starts here
+#Palindrome funtion 
 def palindrome(num):
     while True:
         num=num+1
@@ -19,7 +19,7 @@ print(x)
 
 
 # --------------
-#Code starts here
+#scramble function to ....
 def a_scramble(str_1, str_2):
     str_1=str_1.lower()
     str_2=str_2.lower()
@@ -44,7 +44,7 @@ print(a_scramble("labratory","Bat"))
 
 
 # --------------
-#Code starts here
+#Check_fib function to ....
 def check_fib(num):
     a=0
     b=1
@@ -64,7 +64,7 @@ check_fib(987)
 
 
 # --------------
-#Code starts here
+#Compress funtion .......
 def compress(word):
     word=word.lower()
     res = ""
@@ -96,7 +96,7 @@ print(compress("Ss"))
 
 
 # --------------
-#Code starts here
+#Distinct Funtion to .....
 def k_distinct(string,k):
     l=dup(string.lower())
     lenght=len(l)
